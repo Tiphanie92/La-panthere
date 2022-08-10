@@ -56,7 +56,8 @@ a {
 
 a:active,
 a:hover {
-    outline: 0
+    outline-offset: 0
+    
 }
 
 abbr[title] {
@@ -2013,7 +2014,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .col-lg-1,
@@ -2323,7 +2324,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 100%;
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -3158,7 +3159,6 @@ output {
 
 .form-control:focus {
     border-color: #66afe9;
-    outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
 }
