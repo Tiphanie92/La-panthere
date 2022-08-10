@@ -644,8 +644,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 500;
+    color: #333333!important;
 }
 
 .container {
@@ -672,6 +672,7 @@ a {
 
 p {
     font-size: 15px;
+    font-weight: 500;
 }
 
 .tight-width-whitespace {
@@ -701,15 +702,23 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
+em
+{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000000;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -780,9 +789,14 @@ h4 {
 }
 .tc-white3
 {
-    color: #ffffff!important;
+    color: #F3976C!important;
     display: flex;
     justify-content: center;
+}
+
+.bold
+{
+    font-weight: 700;
 }
 .tc-white2{
     color: #000000!important;
